@@ -4,8 +4,8 @@
 }
 
 .homePage{
-    background-color: #000;
     justify-content: center;
     align-items: center;
-    display: flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
 }
