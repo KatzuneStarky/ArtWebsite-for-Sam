@@ -10,15 +10,15 @@ function Footer() {
             <div className="box">
                 <figure>
                     <a href="">
-                        <img src="" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/Samiithedarki_logo.png"} alt="" />
                     </a>
                 </figure>
             </div>
             <div className="box">
                 <figure>
                     <h2>SOBRE MI</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Artista Furry por hobbie, graduado de Asistencia en Programacion.</p>
+                    <p>Actualmente estudiando Diseño Grafico, especializado en Arte Digital.</p>
                 </figure>    
             </div>
             <div className="box">
