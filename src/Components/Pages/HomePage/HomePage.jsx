@@ -1,16 +1,17 @@
 import React from 'react'
-import Slider from '../Slider/Slider'
+import Footer from '../../Footer/Footer'
+import Slider from '../../Slider/Slider'
 import './HomePage.css'
 
 function HomePage() {
   return (
     <>
         <div className="homePage" style={{
-          background: `url('${process.env.PUBLIC_URL}/images/parallaximg2.jpg')`,
-          backgroundAttachment: 'fixed',
+          background: `url('${process.env.PUBLIC_URL}/images/parallaximg2.jpg')`,          
           backgroundRepeat: 'no-repeat'
           }}>        
-          <Slider />           
+          <Slider />
+          <Footer />           
         </div>    
     </>
   )
