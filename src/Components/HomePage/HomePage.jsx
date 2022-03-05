@@ -1,7 +1,6 @@
-import React , { useEffect } from 'react'
+import React from 'react'
 import Slider from '../Slider/Slider'
 import './HomePage.css'
-import { ParallaxProvider } from 'react-scroll-parallax'
 
 function HomePage() {
   return (
