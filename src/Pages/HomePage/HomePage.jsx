@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../../Footer/Footer'
-import Slider from '../../Slider/Slider'
 import './HomePage.css'
+import Slider from '../../Components/Slider/Slider'
+import Footer from '../../Components/Footer/Footer'
 
 function HomePage() {
   return (
