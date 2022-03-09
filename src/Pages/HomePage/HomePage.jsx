@@ -13,12 +13,13 @@ const checked = useWindowPosition('Landing')
   return (
     <>
         <div className="homePage">   
-          <Landing />  
-          <BookImage /> 
-          <div style={{display: 'flex', minHeight: '100vh', justifyContent: 'center', alignItems: 'center'}}>
-            <CardArt dibujo={dibujos[0]} />  
-            <CardArt dibujo={dibujos[1]} />
-          </div>  
+          <Landing />
+          <h1 className='h1-txt'>El paso del tiempo en mis dibujos</h1>         
+          <div style={{display: 'flex', minHeight: '100vh', justifyContent: 'center', alignItems: 'center'}} id='cards'>           
+            <CardArt dibujo={dibujos[0]} checked={checked} />  
+            <CardArt dibujo={dibujos[1]} checked={checked} />
+          </div> 
+          <BookImage />           
           <Slider />
           <Footer />           
         </div>    

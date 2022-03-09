@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Landing.css'
 import { NavLink } from 'react-router-dom'
-import { Collapse } from '@mui/material'
+import { Collapse, IconButton } from '@mui/material'
+import { ExpandMore } from '@mui/icons-material'
+import { Link as Scroll} from 'react-scroll'
 
 const Landing = () => {
     const imgSlider = (anything) =>{
@@ -55,6 +57,11 @@ const Landing = () => {
                     <img alt={'/images/willow2Transparent.png'} className='arte' />
                 </div>
             </div>
+            <Scroll to='cards' smooth={true}>
+                <IconButton>
+                    <ExpandMore style={{fontSize: '50px', position: 'absolute', transform: 'translateX(-1080%) translateY(150px)'}} />
+                </IconButton>
+            </Scroll>
             <ul className="thumb">
                 <li>
                     <img 
