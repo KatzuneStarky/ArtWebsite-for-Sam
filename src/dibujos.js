@@ -1,13 +1,13 @@
 const dibujos = [
     {
-        title: 'Dibujo 1',
-        descripcion: "",
-        imageUrl: process.env.PUBLIC_URL + "images/Samiithedarki_logo.png",
+        title: '2015',
+        descripcion: "Texto temporal para el dibujo 1",
+        imageUrl: process.env.PUBLIC_URL + "images/2015.jpeg",
     },
     {
-        title: 'Dibujo 2',
-        descripcion: "",
-        imageUrl: process.env.PUBLIC_URL + "images/Samiithedarki_logo.png",
+        title: '2022',
+        descripcion: "Texto temporal para el dibujo 2",
+        imageUrl: process.env.PUBLIC_URL + "images/willow2Transparent.png",
     }
 ];
 

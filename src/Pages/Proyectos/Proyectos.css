@@ -42,6 +42,7 @@
     justify-content: center;
     max-width: 800px;
     margin-bottom: 3rem;
+    background-color: rgb(105, 105, 105);
 }
 
 #projects .item:nth-child(even){

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
 const COLORS = {
-    primaryDark: "#115b4c",
-    primaryLight: "#b6edc8"
+    primaryDark: "#4e0000",
+    primaryLight: "#ffcc9d"
 }
 
 const MenuLabel = styled.label`

@@ -41,7 +41,7 @@ export default function ImgNav() {
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
           {!currentUser ? (<Button startIcon={<Lock />}>Login</Button>) : (
             <Tooltip>
-            <IconButton  size="small" sx={{ ml: 2 }}>
+            <IconButton  size="small" sx={{ ml: 2, mt: 10 }}>
                 <Avatar sx={{ width: 32, height: 32 }} src={process.env.PUBLIC_URL + "/images/Samiithedarki_logo.png"}>
                     {
                         currentUser?.displayName?.charAt(0)?.toUpperCase() ||

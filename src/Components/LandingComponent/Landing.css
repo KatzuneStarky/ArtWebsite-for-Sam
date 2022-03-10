@@ -6,7 +6,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: rgb(194, 194, 194);
     transition: .5s;
 }
 

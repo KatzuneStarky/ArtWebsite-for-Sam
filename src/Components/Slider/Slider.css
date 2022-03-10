@@ -14,9 +14,9 @@
 
 .slider{
     position: relative;
-    width: 800px;
+    width: 100%;
     min-height: 500px;
-    background-color: #fff;
+    background-color: rgb(255, 138, 138);
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
@@ -44,8 +44,8 @@
 .slider .slide .info{
     position: absolute;
     color: #222;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 65%;
     margin-top: 50px;
     margin-left: 50px;
     padding: 20px;

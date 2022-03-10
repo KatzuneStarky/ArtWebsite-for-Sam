@@ -8,7 +8,7 @@ import Footer from '../../Components/Footer/Footer'
 const Proyectos = () => {
   return (
     <>
-      <section id="projects">
+      <section id="projects" style={{background: `url(${process.env.PUBLIC_URL}'/images/parallaximg2.jpg')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed'}}>
         <div className="container">
           <h2 className="section-heading" data-text="Proyectos">Proyectos</h2>
           <div className="all-items">

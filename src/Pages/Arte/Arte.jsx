@@ -11,17 +11,18 @@ import Modal from '../../Components/Modal/Modal'
 const Arte = () => {
   return (
     <>
-      <Navbar />
-      <Container maxWidth="lg" sx={{textAlign: 'center', mt: '3rem'}}>
-        {/* <AuthContext>
-          <Modal />
-          
-        </AuthContext> */}
-          <ImgNav />
-          <Upload />
-          <ImageList />
-      </Container>
-      <Footer />
+      <div style={{background: `url(${process.env.PUBLIC_URL}'/images/parallaximg2.jpg')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed'}}>
+        <Navbar />
+        <Container maxWidth="lg" sx={{textAlign: 'center'}}>
+          {/* <AuthContext>
+            <Modal />
+            
+          </AuthContext> */}
+            <ImgNav />        
+            <ImageList />
+        </Container>
+        <Footer />
+      </div>
     </>
   )
 }

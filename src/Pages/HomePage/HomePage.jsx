@@ -12,15 +12,15 @@ function HomePage() {
 const checked = useWindowPosition('Landing')
   return (
     <>
-        <div className="homePage">   
+        <div className="homePage" style={{background: `url(${process.env.PUBLIC_URL}'/images/parallaximg2.jpg')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed'}}>   
           <Landing />
+          <Slider />
           <h1 className='h1-txt'>El paso del tiempo en mis dibujos</h1>         
           <div style={{display: 'flex', minHeight: '100vh', justifyContent: 'center', alignItems: 'center'}} id='cards'>           
             <CardArt dibujo={dibujos[0]} checked={checked} />  
             <CardArt dibujo={dibujos[1]} checked={checked} />
-          </div> 
-          <BookImage />           
-          <Slider />
+          </div>       
+          <BookImage />                   
           <Footer />           
         </div>    
     </>
