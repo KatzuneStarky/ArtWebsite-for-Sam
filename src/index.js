@@ -5,6 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from 'react-toastify'
+import HomePage from './Pages/HomePage/HomePage';
 
 ReactDOM.render(
   <React.StrictMode>
