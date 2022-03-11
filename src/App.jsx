@@ -22,6 +22,7 @@ function App() {
             <Route path='/blog' element={<AddArticle />} />
           </Routes>  
         </div>
+        <HomePage />
       </Router>            
     </>
   );
