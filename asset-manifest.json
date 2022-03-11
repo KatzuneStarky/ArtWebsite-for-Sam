@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ArtWebsite-for-Sam/static/css/main.7535e904.css",
-    "main.js": "/ArtWebsite-for-Sam/static/js/main.62f4a27e.js",
+    "main.js": "/ArtWebsite-for-Sam/static/js/main.ee9e1a2a.js",
     "index.html": "/ArtWebsite-for-Sam/index.html",
     "main.7535e904.css.map": "/ArtWebsite-for-Sam/static/css/main.7535e904.css.map",
-    "main.62f4a27e.js.map": "/ArtWebsite-for-Sam/static/js/main.62f4a27e.js.map"
+    "main.ee9e1a2a.js.map": "/ArtWebsite-for-Sam/static/js/main.ee9e1a2a.js.map"
   },
   "entrypoints": [
     "static/css/main.7535e904.css",
-    "static/js/main.62f4a27e.js"
+    "static/js/main.ee9e1a2a.js"
   ]
 }
