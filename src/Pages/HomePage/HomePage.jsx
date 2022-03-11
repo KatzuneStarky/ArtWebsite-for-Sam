@@ -7,6 +7,7 @@ import BookImage from '../../Components/BookImage/BookImage'
 import CardArt from '../../Components/CardArt/CardArt'
 import dibujos from '../../dibujos'
 import useWindowPosition from '../../hook/useWindowPosition'
+import Blog from '../Blog/Blog'
 
 function HomePage() {
 const checked = useWindowPosition('Landing')
@@ -20,7 +21,8 @@ const checked = useWindowPosition('Landing')
             <CardArt dibujo={dibujos[0]} checked={checked} />  
             <CardArt dibujo={dibujos[1]} checked={checked} />
           </div>       
-          <BookImage />                   
+          <BookImage />     
+          <Blog />              
           <Footer />           
         </div>    
     </>

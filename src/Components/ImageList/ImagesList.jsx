@@ -33,7 +33,7 @@ export default function ImagesList() {
                   cursor: 'pointer',
                   '&:hover' : {opacity: 1}
                 }} >
-                  <Options imageId={item?.id} />
+                  {/* <Options imageId={item?.id} /> */}
                   <img
                     {...srcset(
                       item?.data?.imageURL,
